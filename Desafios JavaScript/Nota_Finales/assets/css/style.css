@@ -1,0 +1,20 @@
+#animacion {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: mover 2s linear infinite;
+  }
+  
+  @keyframes mover {
+    0% { top: 0; left: 0; }
+    50% { top: 200px; left: 200px; }
+    100% { top: 0; left: 0; }
+  }
+
+  button {
+    position: relative;
+    z-index: 1;
+  }

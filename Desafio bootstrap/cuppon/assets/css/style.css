@@ -1,0 +1,91 @@
+:root {
+  --open-sans: "Roboto", sans-serif;
+  --Light: 300;
+  --Medium: 500;
+  --black: #000000;
+  --white: #ffffff;
+  --logo: #28A745;
+  --light: #F8F9FA;
+  --success: #28a745;
+  --parrafo: #212529;
+  --direccion: #707070;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.navbar {
+  background: var(--logo) !important;
+}
+
+.navbar img {
+  width: 160px;
+}
+
+
+.parrafo {
+  text-align: left;
+  font-size: 20pt;
+  color: var(--black) !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.local{
+  font-size: 20pt;
+  text-align: left;
+  font-size: 16pt;
+  color: var(--direccion) !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+.ubi{
+  font-size: 20pt;
+  text-align: left;
+  font-size: 13pt;
+  color: var(--direccion) !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.pnor {
+  font-size: 19pt;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.pofer {
+  font-size: 24pt;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #28A745;
+}
+
+#form {
+  height: 241px;
+  background: var(--success) !important;
+  color: var(--white) !important;
+}
+
+#footer {
+  color: var(--direccion) !important;
+}
+#footer img{
+  width: 170px;
+}

@@ -1,0 +1,88 @@
+:root {
+    --open-sans: "Open Sans", sans-serif;
+    --regular: 400;
+    --bold: 700;
+    --black: #212529;
+    --white: white;
+    --pink: #e83e8c;
+    --blue: #17a2b8;
+    --titulo:#707070;
+
+  }
+
+  .os-regular{
+    font-family: var(--open-sans)!important;
+    font-weight: var(--regular)!important;
+  }
+  .os-bold{
+    font-family: var(--open-sans)!important;
+    font-weight: var(--bold)!important;
+  }
+  .c-pink{
+    color: var(--pink)!important;
+  }
+  .c-white{
+    color: var(--white)!important;
+  }
+  .c-black{
+    color: var(--black)!important;
+  }
+  .c-blue{
+    color: var(--blue)!important;
+  }
+
+  
+  .bg-white{
+    background-color: var(--white)!important;
+  }
+  .bg-black{
+    background-color: var(--black)!important;
+  }
+  .bg-blue{
+    background-color: var(--blue)!important;
+  }
+
+  .navbar{
+    background-color: var(--pink);
+  }
+  .nav-link{
+    font-size: 16px;
+  }
+
+.navbar-brand img {
+    max-width: 132px; 
+}
+h1{
+  font-size: 60px;
+  color: #707070 !important;
+}
+h5{
+  font-size: 17px;
+}
+li{
+  font-size: 11px;
+}
+a{
+  font-size: 11px;
+}
+.card-text{
+  height: 100px;
+  text-overflow: ellipsis;
+}
+.texto {
+  height: 152px;
+}
+.pago{
+  height: 170px;
+}
+.icons-section{
+  font-size: 60px;
+}
+
+#footer{
+  background: var(--pink) !important;
+}
+
+#footer img{
+  width: 55px;
+}
