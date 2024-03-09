@@ -5,6 +5,10 @@
   background: black !important;
   color: white !important;
 }
+.titulo1{
+  font-size: 30px !important;
+  font-weight: bolder !important;
+}
 .titulo{
   font-size: 20px !important;
   font-weight: bolder !important;
