@@ -1,0 +1,39 @@
+:root {
+    --open-sansL: "Lobster", sans-serif;
+    --open-sansC: "Cabin", sans-serif;
+    --regular: 400;
+    --bold: 700;
+    --black: #000000;
+    --white: #FFFFFF;
+    --logo: #373A3C;
+    --red: #DC3545;
+    --borde: #DDDDDD;
+  }
+  .l-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 37pt;
+    font-style: normal;
+  }
+  .c-regular {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .c-bold {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .nav-item a{
+    font-size: 16pt;
+  }
+  .titulos{
+    font-size: 40pt;
+  }
