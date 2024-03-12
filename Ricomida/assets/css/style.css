@@ -37,12 +37,18 @@
   .titulos{
     font-size: 40pt;
   }
+  .border-top{
+    border-color: var(--black) !important;
+  }
   .time{
+    padding-top: 20px;
     font-size: 20pt;
   }
   h2{
     text-transform:uppercase;
     text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   .col{
     font-family: var(--open-sansC) !important ;
@@ -51,6 +57,9 @@
     font-style: normal;
     color: var(--black) !important ;
     font-size: 20pt;
+  }
+  .margi {
+    margin-top: 50px;
   }
   .suscribete{
     height: 534px;
@@ -75,7 +84,7 @@
     font-size: 30pt;
     font-family: var(--open-sansL);
   }
-  .btn{
+  .botonf{
     padding: 10px 80px 10px 80px;
     font-size: 16pt;
   }
