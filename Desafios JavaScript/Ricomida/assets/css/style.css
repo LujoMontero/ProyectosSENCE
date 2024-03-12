@@ -37,3 +37,45 @@
   .titulos{
     font-size: 40pt;
   }
+  .time{
+    font-size: 20pt;
+  }
+  h2{
+    text-transform:uppercase;
+    text-decoration: underline;
+  }
+  .col{
+    font-family: var(--open-sansC) !important ;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--black) !important ;
+    font-size: 20pt;
+  }
+  .suscribete{
+    height: 534px;
+    background: var(--red);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h4{
+    text-transform:uppercase;
+    font-size: 40pt;
+  }
+  .suscribete p{
+    font-size: 30pt;
+    font-family: var(--open-sansC);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .suscribete span{
+    font-size: 30pt;
+    font-family: var(--open-sansL);
+  }
+  .btn{
+    padding: 10px 80px 10px 80px;
+    font-size: 16pt;
+  }
