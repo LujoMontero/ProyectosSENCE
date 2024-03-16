@@ -18,7 +18,11 @@ body{
     color: white;
 }
 .titulos{
-    border-bottom: ;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .font{
 display: flex;
