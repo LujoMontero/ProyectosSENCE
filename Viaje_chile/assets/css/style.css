@@ -1,0 +1,43 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    background: black;
+}
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.navbar{
+    position: absolute;
+    z-index: 1;
+}
+#quienes{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.titulos{
+    border-bottom: ;
+}
+.font{
+display: flex;
+justify-content: center;
+background: rgb(35, 171, 255);
+}
+.card{
+    background: rgb(35, 171, 255);
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background: rgb(35, 171, 255);
+}
+.fa-brands{
+    color: white;
+    font-size: 2rem;
+    margin-right: 15px;
+}
