@@ -1,47 +1,58 @@
-body{
-    font-family: "Montserrat", sans-serif;
-    background: black;
+body {
+  font-family: "Montserrat", sans-serif;
+  background: black;
 }
 .montserrat-bold {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-style: normal;
+  font-size: 15px;
 }
-.navbar{
-    position: absolute;
-    z-index: 1;
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  background-color: transparent;
 }
-#quienes{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    color: white;
+.viaje{
+    margin-left: 15%;
 }
-.titulos{
-    color: white;
-    text-align: center;
-    margin-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+.collapse{
+    margin-right: 15%;
 }
-.font{
-display: flex;
-justify-content: center;
-background: rgb(35, 171, 255);
+.navbar-toggler{
+    margin-right: 15%;
 }
-.card{
-    background: rgb(35, 171, 255);
+#quienes {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
 }
-#footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    height: 100px;
-    background: rgb(35, 171, 255);
+.titulos {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
-.fa-brands{
-    color: white;
-    font-size: 2rem;
-    margin-right: 15px;
+.font {
+  display: flex;
+  justify-content: center;
+  background: rgb(35, 171, 255);
+}
+.card {
+  background: rgb(35, 171, 255);
+}
+#footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  background: rgb(35, 171, 255);
+}
+.fa-brands {
+  color: white;
+  font-size: 2rem;
+  margin-right: 15px;
 }
