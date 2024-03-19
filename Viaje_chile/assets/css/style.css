@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background: black;
+  background:black;
   color: white;
 }
 .montserrat-bold {
@@ -10,10 +10,14 @@ body {
   font-size: 15px;
 }
 .navbar {
-  position: absolute;
+  position: fixed; 
+  top: 0; 
   width: 100%;
   z-index: 1;
-  background-color: transparent;
+  background-color: transparent; 
+}
+.colort{
+  color: white;
 }
 .viaje{
     margin-left: 15%;

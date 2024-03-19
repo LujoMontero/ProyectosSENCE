@@ -17,10 +17,11 @@
 </head>
 
 <body>
+    <!-- Contenido de Encabezado  -->
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid viaje">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand colort" href="#">
                     <img src="../Viaje_chile/assets/img/viajes.svg" alt="Logo" width="30" height="24"
                         class="d-inline-block align-text-top"> Viajes Chile
                 </a>
@@ -32,23 +33,23 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active montserrat-bold" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active colort montserrat-bold" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item montserrat-bold">
-                            <a class="nav-link" href="#quienes">Quienes somos</a>
+                            <a class="nav-link colort" href="#quienes">Quienes somos</a>
                         </li>
                         <li class="nav-item montserrat-bold">
-                            <a class="nav-link" href="#destacados">Destacados</a>
+                            <a class="nav-link colort" href="#destacados">Destacados</a>
                         </li>
                         <li class="nav-item montserrat-bold">
-                            <a class="nav-link" href="#contacto">Contacto</a>
+                            <a class="nav-link colort" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
-        <div id="carouselExample" class="carousel slide">
+        <!-- Contenido de Carrusel  -->
+        <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="2000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="../Viaje_chile/assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
@@ -70,8 +71,8 @@
             </button>
         </div>
     </header>
-
-    <article id="quienes" class="container">
+    <!-- Contenido de Sección de Quiénes Somos desarrollo  -->
+    <article id="quienes" class="container d-sm-none d-lg-flex">
         <div class="row">
             <h2 id="quienes" class="border-bottom titulos">¿Quienes Somos?</h2>
             <div class="col-sm-12  col-lg-4">
@@ -115,7 +116,7 @@
             </div>
         </div>
     </article>
-
+        <!-- Contenido de Sección de Destacados  Las Cartas  -->
     <section id="destacados" class="container">
         <div class="row justify-content-around">
             <h2 id="destacados" class="border-bottom titulos">Destascados</h2>
@@ -154,6 +155,7 @@
         </div>
     </section>
 
+        <!-- Contenido de Sección de Formulario de Contacto -->
 
     <section id="formulario" class="container">
         <div>
@@ -180,6 +182,7 @@
             <button type="submit" class="butonVolver btn btn-primary">Volver a Llenar</button>
         </div>
     </section>
+        <!-- Contenido de Sección de Estilos -->
     <section class="container">
         <h2 class="text-center">Estilos</h2>
         <div id="estilos">
@@ -187,6 +190,8 @@
             <button id="butonC" type="submit" class="btn btn-light">Modo Claro</button>
         </div>
     </section>
+
+        <!-- Contenido de Sección de Footer -->
 
     <footer id="footer" class="container-fluid">
 
@@ -199,7 +204,7 @@
         </div>
 
     </footer>
-
+     <!-- Contenido deEnlaces Externos y Scripts -->
 
     <script src="../Viaje_chile/assets/js/javascrip.js"></script>
     <script src="https://kit.fontawesome.com/a108f78617.js" crossorigin="anonymous"></script>
